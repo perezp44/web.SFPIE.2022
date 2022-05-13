@@ -35,13 +35,14 @@ knitr::opts_chunk$set(echo = FALSE)
 - [Etherpad](https://etherpad.wikimedia.org/p/curso_intro_DS_UV){target="_blank"}
 
 
-- [Aula Virtual de la asignatura](https://aulavirtual.uv.es/course/view.php?id=36399){target="_blank"} 
-
-
 - [RStudio Cloud Project](https://rstudio.cloud/project/2860324){target="_blank"}
 
 
 - [Tutoriales](https://perezp44.github.io/intro-ds-21-22-web/04-tutoriales.html){target="_blank"}
+
+
+- [Aula Virtual de la asignatura](https://aulavirtual.uv.es/course/view.php?id=36399){target="_blank"} 
+
 
 -------------------
 
