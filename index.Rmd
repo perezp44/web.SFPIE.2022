@@ -1,0 +1,60 @@
+---
+title: "Curso de introducción a R (SFPIE, 2022)"
+description: |
+   Web para facilitar el uso y distribución de los materiales que usaré,  [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), en el curso de introducción a R del SFPIE en 2022.  El repo en Github está [aquí](https://github.com/perezp44/slides_05_data-munging.html). 
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+
+
+### Transparencias
+
+- [Slides 01: Intro](./materiales/slides_01_intro_v2.html){target="_blank"}
+
+- [Slides 04: Importación de datos](./materiales/slides_04_cargar-datos.html){target="_blank"}
+
+- [Slides 05: Data Wrangling](./materiales/slides_05_data-munging.html){target="_blank"}
+
+- [Slides 07: Rmarkdown](./materiales/slides_07_rmarkdown.html){target="_blank"}
+
+
+### Logística (enlaces)
+
+
+- [Etherpad](https://etherpad.wikimedia.org/p/curso_intro_DS_UV){target="_blank"}
+
+
+- [Aula Virtual de la asignatura](https://aulavirtual.uv.es/course/view.php?id=36399){target="_blank"} 
+
+
+- [RStudio Cloud Project](https://rstudio.cloud/project/2860324){target="_blank"}
+
+
+- [Tutoriales](https://perezp44.github.io/intro-ds-21-22-web/04-tutoriales.html){target="_blank"}
+
+-------------------
+
+### Materiales (a descargar)
+
+- [Rproject](./materiales/curso_R_pjp.zip){target="_blank"} con los materiales (scripts, ejemplos, ... ) que usaremos en clase clase.
+
+- Si quieres descargarte las slides, puedes hacerlo [aquí](./materiales/slides_SFPIE.zip)
+
+
+-------------------
+
+### Instalación
+
+- [Instalación de R, RStudio y paquetes](./materiales/01_instrucciones-instalacion-SFPIE.html){target="_blank"}
+

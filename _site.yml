@@ -1,0 +1,25 @@
+name: "curso.R.sfpie.2022"
+title: "Curso introducción a R (SFPIE, 2022)"
+description: |
+  Web para curso de introducción a R del SFPIE 2022
+output_dir: "docs"
+base_url: https://perezp44.github.io/web.SFPIE.2002         
+repository_url: https://github.com/perezp44/web.SFPIE.2002   
+creative_commons: CC BY
+favicon: imagenes/uv_favicon.ico
+theme: assets/theme_frie_pjp.css  #- my_css_SFPIE   theme_frie_pjp
+navbar:
+  search: true
+  source_url: true  
+  logo:
+    image: imagenes/uv.jpeg
+  right: 
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      href: about.html
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true

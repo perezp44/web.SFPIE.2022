@@ -1,0 +1,123 @@
+---
+title: "About"
+description: |
+ Web para facilitar el uso y distribución de los materiales que usaré,  [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), en el curso de introducción a R del SFPIE en 2022.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Info
+
+El curso de introducción a R del SFPIE es un **curso presencial** con 20 horas de docencia. El objetivo principal es proporcionar a los participantes conocimientos básicos acerca del lenguaje de programación R para el desarrollo de la **actividad docente e investigadora**.
+
+El curso es de nivel introductorio, está pensado para gente con nivel cero en R, y está orientado a usar R para analizar datos. Se utiliza un enfoque actual (**tidyverse**) por lo que puede ser también de utilidad a gente que se maneja bien con R pero con un enfoque más tradicional (R-base). Se hace también hincapié en la utilidad de R y su ecosistema en la  **investigación reproducible**.
+
+### Mas info
+
+- Durante el curso se hace una introducción al uso de `r fontawesome::fa(name = "r-project", fill = "steelblue")` para hacer análisis de datos.
+
+- El curso tiene un enfoque fundamentalmente práctico y se utiliza RStudio como interfaz para acceder a R. 
+
+- Los principales tópicos a tratar son:  
+
+  - Introducción a R-base  
+  - Importación (y exportación) de datos 
+  - Manejo de datos à la tidyverse con `dplyr` y `tidyr`  
+  - Gráficos con `ggplot2`  
+  - Documentos reproducibles con `Rmarkdown`  
+
+
+- El curso tiene **2 profesores**: Vicente Coll y yo mismo, Pedro. J. Pérez; ambos profesores titulares de la Universidad de Valencia.
+
+- Tienes más información acerca del curso: logística, materiales, ... en las otras secciones de la web.
+
+-----------------
+
+
+### Algunos materiales
+
+
+Dos fantásticos libros:
+
+- Grolemund, G., Wickham, H. (2016): R for Data Science, OReilly. <https://r4ds.had.co.nz/>{target="_blank"}. Ya están escribiendo la [segunda edición](https://r4ds.hadley.nz/)
+
+-  Peng, R. D. (2016): Exploratory Data Analysis with R. Lean Publishing. <https://bookdown.org/rdpeng/exdata/>{target="_blank"}
+
+Dos agregadores de blogs sobre R:
+
+ - [R-weekly](https://rweekly.org/){target="_blank"}: cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte [aquí](https://feedburner.google.com/fb/a/mailverify?uri=rweekly&loc=en_US).
+    
+- [R-bloggers](https://www.r-bloggers.com/){target="_blank"}: Un agregador de blogs relacionados con R.
+    
+
+#### Más bibliografía/Recursos
+
+La comunidad R es muy dinámica y en general comparte sus materiales, lo que hace que los recursos para aprender R sean, exagerando un poco, casi infinitos. Es imposible abarcarlo todo, es una avalancha continúa de nuevas paquetes, análisis, cursos, libros, etc....
+
+Mas abajo tenéis un listado de recursos, pero, de todas formas, mira lo que dice Jesse Mostipak sobre aprender **#rstats**:
+
+<br>
+
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">My <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> learning path:<br><br>1. Install R<br>2. Install RStudio<br>3. Google &quot;How do I [THING I WANT TO DO] in R?&quot;<br><br>Repeat step 3 ad infinitum.</p>&mdash; Jesse Mostipak (@kierisi) <a href="https://twitter.com/kierisi/status/898534740051062785?ref_src=twsrc%5Etfw">August 18, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+#### Más recursos
+
+  - [Quick-R](http://www.statmethods.net/){target="_blank"}
+    
+  - [r-statistics.co](http://r-statistics.co/){target="_blank"}
+  
+  - [swirl](https://swirlstats.com/): swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!
+
+  - [R views](https://rviews.rstudio.com/){target="_blank"}: Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, [aquí](https://rviews.rstudio.com/2020/08/27/july-2020-top-40-new-cran-packages/) tienes el de julio de 2020.
+
+  - [Stack Overflow](http://stackoverflow.com/questions/tagged/r){target="_blank"}: si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R. 
+
+<br>
+
+#### Propuestas para aprender R
+
+  - [How to get started with Data Science using R](https://www.r-bloggers.com/how-to-get-started-with-data-science-using-r/){target="_blank"}
+
+  - [Tutorials for learning R](https://www.r-bloggers.com/how-to-learn-r-2/#h.nl3rvdr3ycsc){target="_blank"}
+
+<br>
+
+#### Necesito un paquete para ...   
+
+  - [Listado sencillo](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages){target="_blank"}
+    
+  - [Listado completo de CRAN agrupado por temática](https://www.rdocumentation.org/taskviews#Bayesian){target="_blank"}
+
+
+  - [AWESOME list de pkgs](https://github.com/qinwf/awesome-R){target="_blank"}
+
+
+  - [Listado de pkgs agrupados por fase del análisis](https://github.com/rstudio/RStartHere?utm_content=buffercf5d8&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer){target="_blank"}
+
+
+```{r, echo = FALSE,  eval = FALSE,  fig.asp = 1/2, out.width = "70%", fig.align = "center"}
+knitr::include_graphics("./imagenes/tt_0_data-science.png")
+```
+
+
+<br>
+
+#### Awesome list
+
+Mucha gente hace sus propias listas de recursos R, aquí tienes algunas:
+
+
+- [Awesome R Learning Resources](https://github.com/iamericfletcher/awesome-r-learning-resources){target="_blank"}  
+
+- [Learning R resources](https://github.com/Joscelinrocha/Learning-R-Resources){target="_blank"}
+
+- [www.learnr4free.com](https://www.learnr4free.com/){target="_blank"}
+
+<br>
+
+
+
+
