@@ -14,11 +14,9 @@ install.packages("rvest")  #- esnecesario
 options(download.file.method = "libcurl")
 options(timeout = 9999999)
 
-
 remotes::install_github("perezp44/pjpv.curso.R.2022")
 install.packages("sf")
 
-pkgs <- c("rio", "performance", "see", "meme", "tmap", "gt", "DT")
+install.packages("pacman")
 
-
-pkgs_2 <- c("memer")
+pacman::p_load("rio", "performance", "see", "meme", "tmap", "gt", "DT")
