@@ -17,8 +17,14 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+```{r klippy, include = FALSE}
+klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/klippy")
+```
 
 ### Transparencias
+
+(Si quieres descargarte las slides, puedes hacerlo [aquí](./materiales/slides_SFPIE.zip))
+
 
 - [Slides 01: Intro](./materiales/slides_01_intro_v3.html){target="_blank"}
 
@@ -27,6 +33,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - [Slides 05: Data Wrangling](./materiales/slides_05_data-munging.html){target="_blank"}
 
 - [Slides 07: Rmarkdown](./materiales/slides_07_rmarkdown.html){target="_blank"}
+
 
 
 ### Logística (enlaces)
@@ -46,12 +53,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -------------------
 
-### Materiales (a descargar)
+### Rproject con materiales (a descargar)
 
-- [Rproject](./materiales/curso_R_pjp.zip){target="_blank"} con los materiales (scripts, ejemplos, ... ) que usaremos en clase clase.
+- [Rproject](./materiales/curso_R_pjp.zip){target="_blank"} con los materiales (scripts, ejemplos, ... ) que usaremos en clase clase^[Se descargará una carpeta comprimida llamada `curso_R_pjp.zip`. Descomprime la carpeta y así tendrás el Rproject que utilizaremos en clase]. 
 
-- Si quieres descargarte las slides, puedes hacerlo [aquí](./materiales/slides_SFPIE.zip)
-
+    
 
 -------------------
 
