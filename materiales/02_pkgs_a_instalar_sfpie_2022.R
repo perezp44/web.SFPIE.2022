@@ -1,22 +1,26 @@
 #- paquetes a instalar (curso R, SFPIE, 2022)
+#.rs.restartR()
+#- options(download.file.method = "libcurl")
 
 install.packages("tidyverse")
 install.packages("remotes")
 install.packages("ggthemes")
-install.packages("usethis")  #- esnecesario
-install.packages("devtools")  #- esnecesario
-install.packages("curl")  #- esnecesario
-install.packages("palmerpenguins")  #- esnecesario
-install.packages("eurostat")  #- esnecesario
-install.packages("quantmod")  #- esnecesario
-install.packages("rvest")  #- esnecesario
-
-options(download.file.method = "libcurl")
+install.packages("usethis")  
+install.packages("devtools") 
+install.packages("curl") 
+install.packages("palmerpenguins") 
+install.packages("rvest")  
+install.packages("jtools")  
+install.packages("sf")
+install.packages("plotly")
+install.packages("huxtable")
+install.packages("ragg")
+install.packages("knitr")
 options(timeout = 9999999)
 
 remotes::install_github("perezp44/pjpv.curso.R.2022")
-install.packages("sf")
+devtools::install_github("RamiKrispin/coronavirus")
 
-install.packages("pacman")
+pkgs <- c("rio", "performance", "see", "fs", "meme", "tmap", "gt", "DT", "eurostat", "quantmod", "pacman", "performance", "robservable", "gganimate")
+install.packages(pkgs)
 
-pacman::p_load("rio", "performance", "see", "meme", "tmap", "gt", "DT")
