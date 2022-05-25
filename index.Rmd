@@ -26,10 +26,10 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 
 ### Tutoriales y Slides
 
-(Puedes descargar todos los tutoriales y slides [aquí](slides_SFPIE.zip))
+(Puedes descargar todos los tutoriales y slides [aquí](./materiales/slides_SFPIE.zip))
 
 
-- **Presentación**: [Slides](./tutoriales/slides_01_intro_v3.html){target="_blank"}  
+- **Presentación**: [Slides](./materiales/slides_01_intro_v3.html){target="_blank"}  
 
 - **Introducción a R-Base**: [Tutorial](./materiales/introduccion_R_base.html){target="_blank"}  
 
