@@ -74,3 +74,4 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 
 - [Instalación de R, RStudio y paquetes](./materiales/01_instrucciones-instalacion-SFPIE.html){target="_blank"}
 
+- Los que tengan Windows tienen que volver a instalar RStudio. [Aquí](./materiales/pb_con_windows.html){target="_blank"} explico cómo. Sorry!!
