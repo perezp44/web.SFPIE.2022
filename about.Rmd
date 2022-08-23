@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: |
- Web para facilitar el uso y distribución de los materiales que usaré,  [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), en el curso de introducción a R del SFPIE en 2022.
+ Web para facilitar el uso y distribución de los materiales que usaremos en el curso de introducción a R del SFPIE en 2022.
 ---
 
 ```{r setup, include=FALSE}
@@ -29,7 +29,7 @@ El curso es de nivel introductorio, está pensado para gente con nivel cero en R
   - Documentos reproducibles con `Rmarkdown`  
 
 
-- El curso tiene **2 profesores**: Vicente Coll y yo mismo, Pedro. J. Pérez; ambos profesores titulares de la Universidad de Valencia.
+- El curso tiene **2 profesores**: `vicente.coll@uv.es` y yo mismo, `pedro.j.perez@uv.es`; ambos profesores titulares de la Universidad de Valencia.
 
 - Tienes más información acerca del curso: logística, materiales, ... en las otras secciones de la web.
 
