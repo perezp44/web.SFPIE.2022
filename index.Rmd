@@ -1,11 +1,7 @@
 ---
 title: "Curso de introducción a R (SFPIE, 2022)"
 description: |
-<<<<<<< HEAD
    Web para facilitar el uso y distribución de materiales que usaré,  [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), en el curso de intro a R del SFPIE en 2022.  El repo está [aquí](https://github.com/perezp44/web.SFPIE.2022){target="_blank"}. 
-=======
-   Web para facilitar el uso y distribución de materiales. El repo está [aquí](https://github.com/perezp44/web.SFPIE.2022){target="_blank"}. 
->>>>>>> 44067671ebb384e65b71a878ea274754c73f72c5
 site: distill::distill_website
 ---
 
@@ -69,14 +65,6 @@ klippy::klippy(position = c("top", "right")) #- remotes::install_github("rlesur/
 ### Rproject (a descargar)
 
 - En clase trabajaremos con Rprojects. El Rproject que usaré yo, [`pedro.j.perez@uv.es`](mailto:pedro.j.perez@uv.es), puedes descargarlo [aquí](./materiales/curso_R_pjp.zip){target="_blank"}^[Se descargará una carpeta comprimida llamada `curso_R_pjp.zip`. Descomprime la carpeta y así tendrás el Rproject que utilizaremos en clase]. Contiene algunos materiales  (scripts, ejemplos, ... ) que usaremos en clase. Ya os lo explicaré.
-
-<<<<<<< HEAD
-- El [Rproject](./materiales/curso_R_pjp.zip){target="_blank"} con los materiales (scripts, ejemplos, ... ) que usaremos en clase^[Se descargará una carpeta comprimida llamada `curso_R_pjp.zip`. Descomprime la carpeta y así tendrás el Rproject que utilizaremos en clase]. 
-=======
->>>>>>> 44067671ebb384e65b71a878ea274754c73f72c5
-
-
--------------------
 
 ### Instalación
 

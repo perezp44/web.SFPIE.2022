@@ -1,8 +1,9 @@
 ---
 title: "About"
 description: |
- Web para facilitar el uso y distribución de los materiales que usaremos en el curso de introducción a R del SFPIE en 2022.
+  Web para facilitar el uso y distribución de los materiales que usaremos en el curso de introducción a R del SFPIE en 2022.
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
